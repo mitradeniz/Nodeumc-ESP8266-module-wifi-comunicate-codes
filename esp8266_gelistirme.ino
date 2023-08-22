@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "Zeynel";
-const char* password = "mitradeniz63";
+const char* ssid = "--SSID--";
+const char* password = "*********";
 const char* serverIP = "192.168.1.15";
 const int serverPort = 8080;
 
@@ -16,10 +16,10 @@ void setup() {
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
-    Serial.println("Wifi baglantisi bekleniyor...");
+    Serial.println("Wifi connection is waiting...");
   
   }
-  Serial.println("Wifi baglandii.");
+  Serial.println("Wifi connected.");
 
   Serial.print("IP Adresi: ");
   Serial.println(WiFi.localIP());
