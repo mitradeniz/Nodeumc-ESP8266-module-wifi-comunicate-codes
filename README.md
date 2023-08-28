@@ -12,7 +12,7 @@ This repository contains the code and documentation for a project involving the 
 - Install the Arduino IDE and necessary libraries, including `ESP8266WiFi`.
 
 ## Usage
-1. Open the `motion_sensor.ino` file in the Arduino IDE.
+1. Open the `ESP8266_PIR_Motion_Communication.ino` file in the Arduino IDE.
 2. Replace `--SSID--` and `*********` with your Wi-Fi network SSID and password.
 3. Modify `serverIP` with the IP address of the server where motion data will be sent.
 4. Upload the code to the ESP8266 module.
