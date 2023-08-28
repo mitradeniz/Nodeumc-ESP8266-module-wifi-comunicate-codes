@@ -1,6 +1,8 @@
 /*
   Project Description:
-  This code is part of a project that involves interfacing an ESP8266 module with a PIR motion sensor to detect motion. The ESP8266 connects to a Wi-Fi network and communicates with a server to transmit motion data. This code establishes a connection to the server using Wi-Fi, reads data from the PIR sensor, and sends motion information to the server.
+  This code is part of a project that involves interfacing an ESP8266 module with a PIR motion sensor to detect motion.
+  The ESP8266 connects to a Wi-Fi network and communicates with a server to transmit motion data.
+  This code establishes a connection to the server using Wi-Fi, reads data from the PIR sensor, and sends motion information to the server.
 
   Libraries Used:
   - ESP8266WiFi: Used to handle Wi-Fi connectivity and communication.
@@ -16,8 +18,8 @@
   - When no motion is detected, the LED is turned off, and the code sends '0' to the server.
   - Responses from the server are displayed on the serial monitor.
 
-  Author: [Your Name]
-  GitHub Repository: [Provide the GitHub repository URL]
+  Author: mitradeniz
+  GitHub Repository: https://github.com/mitradeniz/Nodeumc-ESP8266-module-wifi-comunicate-codes
 */
 
 #include <ESP8266WiFi.h>
@@ -43,7 +45,7 @@ void setup() {
   }
   Serial.println("Wifi connected.");
 
-  Serial.print("IP Adresi: ");
+  Serial.print("IP Address: ");
   Serial.println(WiFi.localIP());
 
 
