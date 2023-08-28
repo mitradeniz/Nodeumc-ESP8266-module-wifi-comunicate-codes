@@ -21,18 +21,16 @@ This repository contains the code and documentation for a project involving the 
 7. Responses from the server will be displayed in the serial monitor.
 
 ## Author
-[Your Name]
+mitradeniz
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-For inquiries, please contact [your.email@example.com](mailto:your.email@example.com).
+For inquiries, please contact [your.email@example.com](mailto:mitradenizkaratas@gmail.com).
 
 ## Repository Structure
 - `motion_sensor.ino`: The Arduino sketch file containing the code for motion detection and Wi-Fi communication.
 - `LICENSE`: The license file for the project.
 - `README.md`: This README file providing an overview of the project.
-
-For more details, check the [GitHub repository](https://github.com/your-username/your-repo-name).
 
