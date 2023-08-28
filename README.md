@@ -27,7 +27,7 @@ mitradeniz
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-For inquiries, please contact [your.email@example.com](mailto:mitradenizkaratas@gmail.com).
+For inquiries, please contact [mitradenizkaratas@gmail.com](mailto:mitradenizkaratas@gmail.com).
 
 ## Repository Structure
 - `motion_sensor.ino`: The Arduino sketch file containing the code for motion detection and Wi-Fi communication.
